@@ -102,20 +102,86 @@ Responder has up to ~13 HCP within "competitive" here. Opponents have claimed 14
 
 ## Part 4: Over Two-Suited and Artificial Bids
 
-**⚠️ NOT YET FLESHED OUT — decisions pending. Starting points from WHSD §4.1 and §1.4.5:**
+The structure depends on how much we know about the opponents' suits.
 
-- **Both suits known** (Unusual 2NT, Roman jump, Michaels-type 2-suiter):
-  - Cheapest of the two "opponent suits" cue = support, limit raise or better
-  - The other (more expensive) cue = game force with 5+ in the other unbid suit
-  - Double = penalty-oriented
-- **One suit known** (e.g., Michaels showing spades + unknown minor): cue of the known suit = support, "mostly treat like an overcall"
+### 4A: Both Opponent Suits Known
 
-**Open questions for next session:**
-1. How does responder show a *competitive* (non-limit-raise) fit when the opponents have shown two suits and consumed the cuebid?
-2. Is the "penalty-oriented double" strict penalty or card-showing/optional?
-3. Natural new suits in the small space available — forcing? Non-forcing?
-4. Artificial 1-level overcalls (e.g., transfer overcalls): handled under the "one suit known" umbrella? X of the transfer = penalty of the real suit?
-5. Does cue-of-known-suit = support apply uniformly across Michaels, top-and-bottom cues, transfer overcalls, etc., or do any of these get special treatment?
+Applies when opponents make a bid showing two specific suits: Unusual 2NT, Roman jump overcalls, top-and-bottom cue bids, etc.
+
+**1M – (two-suiter showing suits X and Y) – ?**
+
+| Bid | Meaning |
+|-----|---------|
+| **Cheapest cue** (of X or Y) | Support for opener's M, limit raise or better |
+| **Other cue** (of X or Y) | Game force, 5+ in the unbid suit |
+| **Double** | No fit, defensive values, willingness to penalize — optional (see notes) |
+| **Direct raise (2M/3M)** | Competitive support — fit but sub-limit-raise values |
+| **New suit** | Non-forcing, constructive. Opener can raise to game with the right hand |
+| **2NT** *(if available)* | Invitational, stoppers in both opponent suits |
+| **Jump to 4M** | To play — wide-ranging, same "could be serious" style as Parts 1–3 |
+| **4♣** | RKC Gerber for opener's major |
+
+#### Example: 1♥ – (2NT showing minors) – ?
+
+| Bid | Meaning |
+|-----|---------|
+| **3♣** (cheapest cue) | Heart support, limit raise or better |
+| **3♦** (other cue) | GF, 5+ spades |
+| **X** | No heart fit, defensive values, happy to penalize if partner agrees |
+| **3♥** | Competitive heart raise |
+| **3♠** | Non-forcing, constructive, natural — spades but not GF values |
+| **4♣** | RKC Gerber |
+| **4♥** | To play |
+
+Note: 2NT is consumed by the opponent's bid, so the invitational-with-stoppers option is unavailable here.
+
+#### Example: 1♠ – (3♣ Roman showing ♣+♥) – ?
+
+| Bid | Meaning |
+|-----|---------|
+| **3♥** (cheapest cue) | Spade support, limit raise or better |
+| **3♣** | *This is their bid — not available* |
+| **X** | No spade fit, defensive values, optional |
+| **3♦** | Non-forcing, constructive, natural diamonds |
+| **3♠** | Competitive spade raise |
+| **3NT** | To play |
+| **4♣** (other cue) | GF, 5+ diamonds |
+| **4♠** | To play |
+
+Note: Here the cheapest cue (3♥) is below the raise (3♠), so competitive raises are straightforward. The "other cue" (4♣) happens to coincide with the Gerber level — in context, it's the GF-with-diamonds bid, not Gerber. Gerber applies when you've already agreed a trump suit, not when you're still showing a new suit.
+
+### 4B: One Opponent Suit Known
+
+Applies when opponents show one specific suit plus an unspecified suit: e.g., Michaels (1♥–(2♥) = spades + a minor).
+
+- **Cue of the known suit** = support for opener's M, limit raise or better
+- **Everything else** follows Part 2 (natural overcall) rules: direct raise = competitive, new suits NF at 2-level, double = values/optional
+
+#### Example: 1♥ – (2♥ Michaels, showing ♠ + minor) – ?
+
+| Bid | Meaning |
+|-----|---------|
+| **2♠** (cue of known suit) | Heart support, limit raise or better |
+| **2NT** | Invitational, stoppers |
+| **3♣ / 3♦** | Natural, non-forcing, constructive |
+| **3♥** | Competitive heart raise |
+| **X** | Values, no fit, optional — per Part 2 |
+| **4♣** | RKC Gerber |
+| **4♥** | To play |
+
+The unknown minor doesn't change the structure — you can't cue a suit you don't know. If the minor becomes known later (e.g., advancer bids 3♦), treat subsequent doubles as optional/card-showing.
+
+### 4C: Artificial Overcalls at the 1-Level
+
+Transfer overcalls, Mathe-style doubles showing both majors, and similar artificial 1-level actions are too rare to systematize. Use judgment. The general principle — "constructive system is off, bid naturally" — applies.
+
+### Notes
+
+**Double is optional, not strict penalty.** Consistent with Parts 1–3: we don't play any doubles that command partner to pass. "Defensive values, willingness to penalize" means you'd be happy defending but partner can pull with extreme shape. Knowing both opponent suits makes penalty more viable than usual, but the mechanism is the same optional double used everywhere else.
+
+**Why new suits are non-forcing.** Opposite an 8–11 opener, game is rarely on when opponents have a two-suiter eating our space. A responder with a genuine GF and a single long suit can use the higher cue bid (GF with 5+ in the unbid suit). Since that route exists, forcing new suits would add nothing — it would just make it dangerous to compete with a constructive but non-GF hand.
+
+**2NT = invitational with stoppers** is only meaningful when 2NT isn't consumed by the opponent's bid. After Unusual 2NT, it's unavailable. After Michaels or Roman jumps at the 3-level, 2NT may or may not be available depending on the auction.
 
 ---
 
@@ -131,7 +197,6 @@ Responder has up to ~13 HCP within "competitive" here. Opponents have claimed 14
 
 ## TODOs
 
-- [ ] Complete Part 4 (two-suited and artificial bids)
 - [ ] Consider hoisting "constructive system off over any opponent action" into `general_principles.md` as a cross-cutting principle (applies across all openings, presumably)
 - [ ] Verify with Bill: any special handling needed for jump overcalls (1♥ – (3♣) – ?) — does the "new suit at 3-level is forcing" rule hold, or does 3-level preemption change things?
 - [ ] Verify: "could be serious" 4M jumps — any agreement for when opener has extras and wants to cooperate, or just pure to-play?

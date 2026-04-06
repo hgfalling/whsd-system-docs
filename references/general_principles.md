@@ -20,6 +20,10 @@ Two protocols:
 - **Two-Suiter Shortness Ask**: When askee has shown 9+ cards in two known suits
 - **Standard Shortness Ask**: When no two-suiter has been described
 
+### Guaranteed-Shortness Modification
+
+When the bidding has already guaranteed that a player has shortness (e.g., the mini-splinter over 1M), the "no shortness" step (Step 1 in the standard ask) is **skipped** — saving a level. The remaining steps shift down accordingly. This applies anywhere shortness is promised by the preceding bid.
+
 ## Shortness Showing (When Showing Directly, Not Via Ask)
 
 When a player shows shortness directly (not in response to an asking sequence), the rule is **cheaper = lower**.
@@ -38,6 +42,28 @@ After 1M (limited opening), responder is captain:
 More general F/NF principles TBD as other sections are documented.
 
 ## Competitive Principles (Partial — To Be Expanded)
+
+### Defense to Known Two-Suited Bids (General Framework)
+
+When opponents show a known two-suiter and **no suit has been bid by our side** (e.g., they open 2NT showing minors, or 1NT–(2NT)):
+- Cheapest cue of their two suits = takeout for the other two suits
+- Next cue = strong hand with one suit
+
+When **our side has already bid a suit** (e.g., 1M–(2NT), 2M–(2NT)):
+- Cheapest cue = support for our suit, limit raise or better
+- Other cue = game force with 5+ in the unbid suit
+- See the 1M Competitive doc (Part 4) for the full structure including doubles, raises, and new suits
+
+*(Source: WHSD §1.4.5. The 1M-specific application is fully documented; the general "no suit bid" case needs expansion when other sections are written.)*
+
+## Corresponding-Major Convention
+
+Clubs corresponds to hearts; diamonds corresponds to spades. Used throughout the system when a minor-suit bid refers to a major:
+
+- **4♣ / 4♦** = GF in hearts / spades (e.g., after 2♣ opening)
+- **3♣ / 3♦** = extras with hearts / spades (e.g., after 2♣���2♦)
+
+### Other TBDs
 
 - TBD: Default meaning of doubles (takeout through what level?)
 - TBD: Fit-showing jumps — when do they apply?
