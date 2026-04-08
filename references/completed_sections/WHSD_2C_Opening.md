@@ -1,24 +1,12 @@
 # WHSD: 2♣ Opening — 5-4+ Majors
 
-*Consolidated from WHSD §7 and discussion notes — April 2026*
-
 ---
 
 ## Overview
 
 2♣ shows **5-4 or better in both majors**, 11+ HCP, unlimited. All hands with 5-4+ majors and 11+ HCP open 2♣ regardless of strength.
 
-**Critical systemic inference:** Because 2♣ is unlimited, a 1♦ opener who later bids a major is guaranteed to have at most 3 cards in the other major. Any hand with 5-4+ in both majors — even 20+ HCP — would have opened 2♣. This significantly narrows responder's picture in 1♦ auctions.
-
-This is one of WHSD's shape-showing two-level openings.
-
-**Corresponding-major convention** (used throughout this section and elsewhere in the system): clubs corresponds to hearts, diamonds corresponds to spades. So 4♣ = GF in hearts, 4♦ = GF in spades, 3♣ = extras with hearts, 3♦ = extras with spades.
-
-| Seat | Requirements |
-|------|-------------|
-| 1st/2nd | 11+ HCP, 5-4+ majors, unlimited |
-| 3rd | Same as 1st/2nd |
-| 4th | 17+ Pearson points, 5-4+ majors |
+**Systemic inference:** Because 2♣ is unlimited, a 1♦ opener who later bids a major is guaranteed to have at most 3 cards in the other major. Any hand with 5-4+ in both majors would have opened 2♣. This narrows responder's picture in 1♦ auctions.
 
 ---
 
@@ -27,120 +15,69 @@ This is one of WHSD's shape-showing two-level openings.
 | Response | Meaning | Forcing? | Details |
 |----------|---------|----------|---------|
 | **2♦** | Ask opener to describe | F1 | Part 1 |
-| **2NT** | Signoff in a minor | NF | §2.1 |
-| **3m** | Invitational in that minor | INV | §2.2 |
-| **3M** | Constructive raise (~8–9 support pts) | NF | §2.3 |
-| **4♣** | GF in hearts (♣ = ♥) | GF | §2.4 |
-| **4♦** | GF in spades (♦ = ♠) | GF | §2.4 |
-| **4M** | To play, < 13 support points | NF | §2.5 |
-| **4NT** | 6-keycard RKC | GF | §2.6 |
-| **5m** | To play | NF | — |
+| **2♥/2♠** | Simple preference, signoff. | NF | |
+| **2NT** | Signoff in a minor | NF | §6 |
+| **3m** | Invitational in that minor | INV | §7 |
+| **3M** | Constructive raise (~8–9 support pts) | NF | §8 |
+| **4♣** | GF in hearts (♣ = ♥) | GF | §9 |
+| **4♦** | GF in spades (♦ = ♠) | GF | §9 |
+| **4M** | To play, < 13 support points |  | §10 |
+| **4NT** | 6-keycard RKC |  | §11 |
+| **5m** | To play |  | — |
 
 ---
 
-## Part 1: 2♣–2♦
+# Part 1: 2♣–2♦
 
 2♦ asks opener to describe the hand further — which major is longer, and how strong.
 
-### 1.1 Opener's Rebid
+## §1. Opener's Rebid
 
 | Rebid | Meaning |
 |-------|---------|
 | **2♥** | Hearts longer or equal length. 11–16. |
 | **2♠** | Spades longer. 11–16. |
 | **2NT** | 17–19 balanced, stoppers in both minors |
-| **3♣** | 17+ extras, length in hearts (♣ = ♥) |
-| **3♦** | 17+ extras, length in spades (♦ = ♠) |
+| **3♣** | 17+ extras, length in hearts |
+| **3♦** | 17+ extras, length in spades |
 | **3♥** | 5-5+ in the majors with extras |
 
 ---
 
-### 1.2 After 2♣–2♦–2♥ (Hearts Longer or Equal, 11–16)
+## §2. After 2♣–2♦–2M
 
-Opener has shown hearts as the longer major (or equal length), minimum range.
+Both 2♥/2♠ show 11-16.
+2♥: opener has shown hearts longer or equal length.
+2♠: opener has shown spades longer.
 
-| Responder's Bid | Meaning |
-|----------------|---------|
-| **2♠** | Length ask — are majors equal? See §1.3 |
-| **2NT** | Invitational, no major fit |
-| **3♣** | Forcing, natural |
-| **3♦** | Forcing, natural |
-| **3♥** | Invitational with heart fit |
-| **3♠** | Forcing, natural |
+Responder's followups:
 
-After 2♣–2♦–2♥, all new suits at the 3-level are forcing and natural. To get shortness information, responder uses the 2♠ length ask (§1.3), which leads into the Two-Suiter Shortness Ask Protocol.
+| Responder's Bid | Over | Meaning |
+|----------------|-------|---------|
+| **2♠** | 2♥ | Length ask — are majors equal? |
+| **2NT** | both | Invitational, no major fit |
+| **3♣** | 2♥ | Forcing, natural |
+| **3♣** | 2♠ | Two Suited Shortness Ask |
+| **3♦** | both | Forcing, natural |
+| **3M** | both | Invitational in M |
+| **4M** | both | to play |
 
----
+- To get shortness information over 2♥ responder starts with the 2♠ length ask. 
+- If opener bids 2NT, responder can shortness ask with 3♣. Otherwise opener will bid the steps of the shortness ask starting with 3♣.
+- To get shortness information over 2♠ responder uses the 3♣ shortness ask. 
 
-### 1.3 Length Ask: 2♣–2♦–2♥–2♠
-
-Responder asks whether opener's majors are truly equal or hearts is longer. Opener's response simultaneously answers both the length question and (if hearts is longer) the shortness question — using the Two-Suiter Protocol starting at 3♣.
-
-| Opener's Rebid | Meaning |
-|----------------|---------|
-| **2NT** | Equal length (5-5+). Responder bids 3♣ to trigger shortness ask. |
-| **3♣** | Hearts longer, club shortness (Two-Suiter Step 1) |
-| **3♦** | Hearts longer, diamond singleton (Step 2) |
-| **3♥** | Hearts longer, diamond void (Step 3) |
-| **3♠** | Hearts longer, both minors short (Step 4+, reverse binary) |
-| **3NT** | Hearts longer, no shortness (5-4-2-2) |
-| **4♣+** | Hearts longer, both minors short continued |
-
-When opener bids 3♣+, the Two-Suiter Shortness Ask Protocol applies with clubs (lower) and diamonds (higher) as the two unknown suits. 3NT retains its special meaning of "no shortness" since a 5-4 hand can be 5-4-2-2. See *WHSD: Shortness Ask Protocol* for relay continuations after any step.
-
-**After 2♣–2♦–2♥–2♠–2NT–3♣** (equal length confirmed, shortness ask):
-
-Opener has shown 5-5+ in the majors — 10+ cards in two known suits. This is a **Two-Suiter Shortness Ask**, but since opener is at least 5-5, a 5-4-2-2 shape is impossible. Therefore **3NT is not reserved for "no shortness"** — it becomes a regular step.
-
-| Response | Meaning |
-|----------|---------|
-| **3♦** | Club shortness (Step 1 — relay to distinguish singleton/void) |
-| **3♥** | Diamond singleton (5-5-1-2) |
-| **3♠** | Diamond void (5-5-0-3) |
-| **3NT** | Both minors short: ♦ singleton, ♣ void (6-6-1-0) |
-| **4♣** | Both minors short: ♦ void, ♣ singleton (6-6-0-1) |
-
-After step 1 (3♦ = club shortness), responder can relay with 3♥ for singleton vs. void, then further relay for exact shape — per the standard protocol.
+For details on the Two Suited Shortness Ask, see *WHSD: Shortness Ask Protocol* for steps and relay continuations. 
+Note: If opener shows equal length majors, he must have a shortness, so 3NT is just a regular step.
 
 ---
 
-### 1.4 Shortness Ask: 2♣–2♦–2♠–3♣
-
-After 2♣–2♦–2♠ (spades definitively longer, 11–16), responder's 3♣ is a game-forcing **shortness ask**. Opener has shown 9+ cards in two known suits (hearts and spades), making this a **Two-Suiter Shortness Ask** (see *WHSD: Shortness Ask Protocol*). The two unknown suits are clubs (lower) and diamonds (higher).
-
-| Response | Meaning |
-|----------|---------|
-| **3♦** | Club shortness (lower suit short) |
-| **3♥** | Diamond singleton |
-| **3♠** | Diamond void |
-| **3NT** | No shortness (4-5-2-2) |
-| **4♣+** | Reverse binary on both short suits |
-
-After step 1 (3♦ = club shortness), responder can relay for singleton vs. void, then exact shape — per the standard protocol.
-
----
-
-### 1.5 After 2♣–2♦–2♠ (Spades Longer, 11–16)
-
-Opener has shown spades as definitively longer, minimum range. No length ambiguity — spades is 5+ and hearts is 4 (or spades is 6+ with hearts 4-5).
-
-| Responder's Bid | Meaning |
-|----------------|---------|
-| **2NT** | Invitational, no major fit |
-| **3♣** | Shortness ask (GF) — see §1.4 |
-| **3♦** | Forcing, natural |
-| **3♥** | Forcing, natural |
-| **3♠** | Invitational with spade fit |
-
----
-
-### 1.6 After 2♣–2♦–2NT (17–19 Balanced)
+## §3. After 2♣–2♦–2NT (17–19 Balanced)
 
 Opener has shown a strong balanced hand with minor-suit stoppers. With a bad hand, responder would have signed off initially in a major (or bid 2♦ intending to pass opener's 2M). If responder bid 2♦ with equal majors and a weak hand planning to pass, he can now bid 3♣ (re-ask for longer major) and pass opener's answer.
 
 | Responder's Bid | Meaning |
 |----------------|---------|
-| **3♣** | Re-ask for longer major (Stayman-like) |
+| **3♣** | Re-ask for longer major |
 | **3♦** | Transfer to hearts, GF |
 | **3♥** | Transfer to spades, GF |
 | **3♠** | Slammish |
@@ -155,7 +92,7 @@ Opener has shown a strong balanced hand with minor-suit stoppers. With a bad han
 | **3♥** | Hearts longer (typically 5-4-2-2 or 5-4-3-1) |
 | **3♠** | Spades longer |
 
-**After 3♦ (5-5 exactly):** 3M is non-forcing (responder may have a bust). 3NT is natural. Stiff will usually be an honor. 4♣ is a **Two-Suiter Shortness Ask** (clubs lower, diamonds higher; 3NT = no shortness is impossible since opener is 5-5, same logic as §1.3).
+**After 3♦ (5-5 exactly):** 3M is non-forcing (responder may have a bust). 3NT is natural. Stiff will usually be an honor. 4♣ is a **Two-Suiter Shortness Ask**.
 
 **After 3M (that major longer):** With 6-4-2-1, expect both a stiff honor and a weak 6-card suit. 4♣ is Gerber. Any other bid (including 3♠ after 3♥) is a cuebid.
 
@@ -163,41 +100,39 @@ Opener has shown a strong balanced hand with minor-suit stoppers. With a bad han
 
 ---
 
-### 1.7 After 2♣–2♦–3m (17+ Extras)
+## §4. After 2♣–2♦–3m (17+ Extras)
 
-3♣ shows extras with length in hearts; 3♦ shows extras with length in spades (corresponding-major convention). Forcing.
+3♣ shows extras with length in hearts; 3♦ shows extras with length in spades. Responder can bid a major at the 3 or 4 level to sign off, or cuebid if slam-curious. 3NT shows a cuebid in the other major.
 
-Responder places the contract or continues naturally with game/slam interest.
+## §5. After 2♣–2♦–3♥ (5-5+ With Extras)
 
-### 1.8 After 2♣–2♦–3♥ (5-5+ With Extras)
-
-Shows 5-5 or better in both majors with extra values. Forcing. Responder chooses a game or investigates slam.
+Shows 5-5 or better in both majors with extra values. Responder chooses a game or investigates slam.
 
 ---
 
-## Part 2: Non-2♦ Responses
+# Part 2: Non-2♦ Responses
 
-### 2.1 2NT — Signoff in a Minor
+## §6. 2NT — Signoff in a Minor
 
 Responder wants to play in a minor. Opener's continuations:
 
 | Opener's Action | Meaning |
 |----------------|---------|
-| **3♣ / 3♦** | Pass or correct (responder passes the right minor) |
+| **3♣ / 3♦** | Pass or correct |
 | **3M** | Extra strength, suggesting game in a major |
-| **Other** | Considerable extra strength (17+) |
+| **Other** | Considerable additional extra strength |
 
-### 2.2 3m — Invitational in That Minor
+## §7. 3m — Invitational in That Minor
 
 Natural and invitational. Opener may pass, correct to 3NT, or raise.
 
-### 2.3 3M — Constructive Raise
+## §8. 3M — Constructive Raise
 
-Mostly to play. Values of a constructive raise — around 8–9 points in support. Opener may raise to 4M with extras. Don't bid this on a 2-count without significant shape.
+Values of a constructive raise — around 7-10 points in support. Opener may raise to 4M with extras. 
 
-### 2.4 4m — Game Force in the Corresponding Major
+## §9. 4m — Game Force in the Corresponding Major
 
-4♣ = GF in hearts; 4♦ = GF in spades. Either sets trump for RKC or shows minimum game-force values (13–16 in support). Establishes a **forcing pass**.
+4♣ = GF in hearts; 4♦ = GF in spades. Either sets trump for RKC or shows minimum game-force values (13–16 in support). Establishes a forcing pass.
 
 Recommended over bidding 4M directly, since opener is unlimited.
 
@@ -208,43 +143,47 @@ Recommended over bidding 4M directly, since opener is unlimited.
 | **4M+1** | RKC |
 | **Other bids** | Ask for 1st/2nd round control |
 
-### 2.5 4M — To Play
+## §10. 4M — To Play
 
-Less than 13 points in support. Not interested in slam investigation.
+Less than 13 points in support.
 
-### 2.6 4NT — 6-Keycard RKC
+## §11. 4NT — 6-Keycard RKC
 
 Counts all 4 aces plus both major-suit kings (6 keycards total).
 
 **TODO: Confirm 6-keycard RKC step responses with Bill.**
 
-### 2.7 5m — To Play
+## §12. 5m — To Play
 
 ---
 
-## Part 3: Interference Over 2♣
+# Part 3: Interference Over 2♣
 
-| Opponent's Action | Our Responses |
-|------------------|---------------|
-| **Any ♦ bid below 5♦** | X = choose a major. Cue of ♦ = choose a major. |
-| **♣ bids and others** | X = penalty-oriented. Cheapest ♦ bid = choose a major. 3♣/4♣ = GF in hearts, 3♦/4♦ = GF in spades. |
-| **Jump 4m** | Still GF in the corresponding major |
+| Opponent's Action | X | Choose a major | Other notes |
+|------------------|-----|----------|-----------------|
+| X = takeout | XX = penalty oriented | 2♦ | systems on |
+| 2♦ natural | choose a major | X | systems on |
+| 2M corr minor | penalty oriented | 3♦ | |
+| 2NT takeout | penalty oriented | 3♦ | |
+| 2NT strong bal | choose a major | X | 3m = inv in corr major, 3M competitive in that major |
+| 3♣ natural | penalty oriented | 3♦ | |
+| 3♦ natural | choose a major | X | |
+| anything | | 4♣/4♦ still GF in corresponding major. | 
 
 ---
 
-## Part 4: 1♣–2♣ Mirror
+# Part 4: This Structure Generalizes
 
-After a 1♣ opening, responder's 2♣ shows both majors with anything short of a game force. The continuations mirror the 2♣ opening structure as much as possible, with opener (the 1♣ hand, 11–17) doing the asking.
+The structure here is used in other situations in our system:
 
-Full documentation deferred to the 1♣ section. Key differences: opener may have 16–17 with a 5-card major, and the range/captaincy dynamics differ since the 1♣ hand is stronger.
+- After a 1♣ opening, responder's 2♣ shows both majors with 6-11 hcp. We use this structure to bid constructively after this.
+- vs opponents' NT openers, our bids showing "majors" (2♣ vs both weak and strong) use this response structure to bid after. 
 
 ---
 
 ## General Principles Referenced
 
-- **Corresponding-major convention**: ♣ = ♥, ♦ = ♠ — used for 4m GF bids, 3m extras bids
-- **Two-Suiter Shortness Ask Protocol** → see *WHSD: Shortness Ask Protocol*
-- **Reverse binary** encoding for both-short situations → see Shortness Ask Protocol
+- **Shortness Asks** → see *WHSD: Shortness Ask Protocol*
 - **RKC / Keycard** → see general_principles.md
 - **Forcing pass** agreements → TBD in general_principles.md
 
@@ -253,5 +192,3 @@ Full documentation deferred to the 1♣ section. Key differences: opener may hav
 ## TODOs
 
 - [ ] **Confirm 6-keycard RKC step responses** (4NT over 2♣). Presumably 0/1/2/3 step structure but need to verify with Bill.
-- [ ] **Confirm 4♣ Gerber after 2♣–2♦–2NT–3♣–3M.** Source says "4♣ is Gerber" — is this the same as 4♣ RKC elsewhere, or different?
-- [ ] **1♣–2♣ mirror:** Full documentation deferred to the 1♣ section. Ensure 2♣-opening decisions are reflected there.
