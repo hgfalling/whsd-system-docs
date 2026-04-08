@@ -54,7 +54,8 @@ Responses use a modified **Lebensohl/Rubensohl** structure. The key features:
 | **4♦** | Splinter in diamonds |
 
 No unspecified splinter is available over 2♠.
-Over 2♥, responder's 3♠ is a spade or club splinter. 3NT by opener asks, 4♣=clubs, 4♦=spades. 
+Over 2♥, responder's 3♠ is a spade or club splinter. 3NT by opener asks, 4♣=clubs, 4♦=spades.
+
 ---
 
 ## §2 — The 2♠ Response to 2♥
