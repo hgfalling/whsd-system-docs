@@ -40,13 +40,13 @@ Source doc mapping:
 | File | Contents |
 |------|----------|
 | WHSD.md | Main system doc — **controls on all conflicts** |
+| Other_Agreements.md | NT systems, misc agreements **also more recent and controlling document**|
 | BFD_1_Overview.md | BFD system overview (historical) |
 | BFD_2_1C_Modified.md | 1♣ relay structure (use this over the original) |
 | BFD_2_1C_Original.md | Original 1♣ (historical reference only) |
 | BFD_3_1D.md | Strong diamond relay structure |
 | BFD_4_2C.md | BFD's 2♣ = minors (maps to WHSD's 2♦) |
 | BFD_5_2NT.md | 2NT opening |
-| Other_Agreements.md | NT systems, misc agreements |
 | Infernal_BFD.md | Previous consolidation attempt |
 | Bill_Spencer_Misc.md | Legacy 1M raises — NOT current for 1M |
 
@@ -72,6 +72,7 @@ Create a clean markdown document in `references/completed_sections/`:
 - Tables for bidding sequences
 - Reference (don't duplicate) general principles and the shortness protocol
 - Flag remaining TODOs or "ask Bill" items clearly
+- Don't add a lot of descriptive notes explaining motivations unless Jerrod or a document specifically explained them. Even then, be brief, Jerrod will add necessary color after.
 
 ### 5. Update Tracking
 
@@ -82,8 +83,6 @@ After completing a section:
 
 ## System Context
 
-**Partner:** Bill Chen
+**Partner:** Bill Chen. References to "Bill" in the chat will be to Bill.
+**Other Guy:** Spencer Sun (friend and was involved in BFD design way back when, plays with us a lot now)
 
-**Key design principle:** One-level openings signal *valuation* (1M = weak, 1D = strong, 1NT = narrow, 1C = medium catchall). Two-level openings signal *shape* (2♣ = majors, 2♦ = minors, 2M = one-suited).
-
-**3rd/4th seat:** Reverts to much more standard 2/1 with weak NT system (specifics TBD).

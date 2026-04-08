@@ -14,10 +14,8 @@ Each completed section goes through three stages:
 
 | Section | File | Date | Review Status | Notes |
 |---------|------|------|---------------|-------|
-| 1M Constructive: 2♣ Semi-Puppet & 2♦ GF | WHSD_1M_2C_2D_Sequences.md | 2026-04-03 | Draft | One TODO: verify shape ask step order after 1♠–2♦–2♥–2NT. |
+| 1M Opening (1st/2nd seat) | WHSD_1M_Opening.md | 2026-04-07 | Draft | Merged uncontested + competitive. Parts 1–3 uncontested (§1–§21), Part 4 competitive (§22–§26). |
 | Shortness Ask Protocol | WHSD_Shortness_Ask_Protocol.md | 2026-04-03 | Draft | Standalone reference. Two-suiter and standard protocols, exact shape ask. |
-| 1M Direct Responses | WHSD_1M_Direct_Responses.md | 2026-04-05 | Draft | Response tables for 1♥ and 1♠, mini-splinter shortness ask, 3♦ limit raise, 1♠-over-1♥ rebids. |
-| 1M Competitive | WHSD_1M_Competitive.md | 2026-04-05 | Draft | Parts 1–4. Part 4 (two-suited/artificial bids) completed. |
 | 2♣ Opening (Majors) | WHSD_2C_Opening.md | 2026-04-05 | Draft | 5-4+ majors, unlimited. Corrected: no 5-5 requirement for 17+. |
 
 ## Not Started

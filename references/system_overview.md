@@ -5,25 +5,23 @@
 | Opening | HCP | Shape | Notes |
 |---------|-----|-------|-------|
 | **1♣** | 11–17 | Catchall | 15–17 balanced (any shape), 11+ with single minor, unbalanced 5m-4M, etc. |
-| **1♦** | 17+ | Artificial, forcing | Strong hand. Detailed relay structure follows. |
-| **1♥** | 8–11 | 4+ hearts | Could be canape (longer side suit). Rule of 17 in 1st seat. |
+| **1♦** | 17+ any shape| Artificial, forcing | 18+ if balanced. |
+| **1♥** | 8–11 | 4+ hearts | Could be canape (longer other suit) |
 | **1♠** | 8–11 | 4+ spades | Could be canape. Cannot have exactly 4 hearts. |
-| **1NT** | 11–14 | Balanced | Includes 5-card majors. |
-| **2♣** | 11+ (unlimited) | 5-4+ majors (either way) | At least 5-4 in hearts and spades. |
-| **2♦** | 11–16 | 5-4+ minors (either way) | At least 5-4 in clubs and diamonds. |
-| **2♥** | 11–15 | 5+ hearts, unbalanced | At most semi-balanced. |
-| **2♠** | 11–15 | 5+ spades, unbalanced | At most semi-balanced. |
+| **1NT** | 11–14 | Balanced | Includes 5-card majors systemically |
+| **2♣** | 11+ (unlimited) | At least 5-4 in hearts and spades. |
+| **2♦** | 11–16 | 5-4+ minors (either way) | Replaces BFD 2♣ bid, adapts that structure. |
+| **2♥** | 11–15 | 5+ hearts, at most semi-balanced | 5422 with concentration, 6322, or a shortness. |
+| **2♠** | 11–15 | 5+ hearts, at most semi-balanced | 5422 with concentration, 6322, or a shortness. |
 
 ## 3rd/4th Seat
 
-Reverts to standard. Specifics TBD.
+Reverts to a more legacy BFD structure. Details follow.
 
 ## Key Structural Properties
 
-**1M cannot have exactly 4 of the other major.** Every hand with 4-4 majors opens 1♥. Every hand with 5+♠-4♥ opens either 2♣ (11+) or 1♥ canape (8-10). So after 1♠, opener has 0-3 or 5+ hearts — never exactly 4.
+**1♣ is a catchall bid** but its scope is narrowed by negative inferences from all the specific openings. Opener can't have both minors (2♦), can't have both majors 5-4+ (2♣), can't be balanced 11-14 (1NT), can't have 4+M with 8-11 (1M), can't be 17+ (1♦). So this bid is typically 15-17 balanced, or a hand with a single long minor (11-16), though there are some other types in there.
 
-**1♣ is the catchall** but its scope is narrowed by negative inferences from all the specific openings. Opener can't have both minors (2♦), can't have both majors 5-4+ (2♣), can't be balanced 11-14 (1NT), can't have 4+M with 8-11 (1M), can't be 17+ (1♦).
+**Responder is typically captain after 1M** because opener's range is narrow (8-11). Constructive auctions 2♣ (invitational), 2♦ (game-force), with most other bids either showing a particular kind of fit, or being natural and non-forcing. 
 
-**Responder is captain after 1M** because opener's range is narrow (8-11). The system provides three tiers for most hand types: weak (direct), invitational (via 2♣ puppet), game-forcing (via 2♦ GF).
-
-**The system reaches natural bidding quickly.** Most auctions are only artificial for 1-2 rounds. Don't over-specify sequences that should be judgment.
+**The system reaches natural bidding quickly.** Even artificial sequences are usually (but not always) artificial for 1-2 rounds. Don't over-specify sequences that should be judgment.

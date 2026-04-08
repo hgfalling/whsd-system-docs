@@ -105,10 +105,15 @@ Asker relays (next step) to distinguish singleton from void:
 
 ---
 
+## General Notes
+
+- **Cheaper = lower.** Across all shortness-related sequences, when it comes time to show which suit the shortness is in by walking up steps, cheaper steps correspond to lower-ranking suits. Some sequences have adjustments — a step with a special meaning, or a dropped step because shortness is already guaranteed — but the cheaper = lower ordering always applies to the shortness-showing steps themselves.
+- **Guaranteed-shortness modification.** When the bidding has already promised shortness (e.g., the mini-splinter over 1M), the "no shortness" step is **skipped**, saving a level. The remaining steps shift down accordingly.
+
 ## Summary of Key Principles
 
 1. **3NT = no shortness** whenever it's available as a natural step in the two-suiter ask.
-2. **Cheaper = lower** in the standard ask for identifying which suit is short.
+2. **Cheaper = lower** for identifying which suit is short (see General Notes above).
 3. **Reverse binary** (11, 10, 01, 00) for both-short situations in the two-suiter ask, with higher suit as the leading digit and singleton = 1, void = 0.
 4. **Exact shape** uses lexicographic ordering of possible shapes sorted by suit length.
 5. **Relay = tell me more** at every stage — asker can always stop relaying and place the contract or do something else (RKC for example)
