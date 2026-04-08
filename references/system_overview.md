@@ -12,7 +12,7 @@
 | **2♣** | 11+ (unlimited) | At least 5-4 in hearts and spades. |
 | **2♦** | 11–16 | 5-4+ minors (either way) | Replaces BFD 2♣ bid, adapts that structure. |
 | **2♥** | 11–15 | 5+ hearts, at most semi-balanced | 5422 with concentration, 6322, or a shortness. |
-| **2♠** | 11–15 | 5+ hearts, at most semi-balanced | 5422 with concentration, 6322, or a shortness. |
+| **2♠** | 11–15 | 5+ spades, at most semi-balanced | 5422 with concentration, 6322, or a shortness. |
 
 ## 3rd/4th Seat
 
