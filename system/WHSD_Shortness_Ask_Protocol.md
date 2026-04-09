@@ -17,9 +17,7 @@
 
 Applies when askee has shown 9+ cards in two known suits. There are only two candidate suits for shortness.
 
-**Convention: 3NT (if available) is never counted as a step — it always means "no shortness" (typically 5-4-2-2).**
-
-This ask does not occur above 3NT in situations where askee could have no shortness, so that edge case is ignored.
+**Convention: If askee could have 2-2 in the other two suits, then 3NT (if available) shows "no shortness" and is ignored in the step pattern. 
 
 ### Step Responses
 
@@ -34,10 +32,10 @@ This ask does not occur above 3NT in situations where askee could have no shortn
 | **Step 6** | Both suits short: void higher, singleton lower | — |
 | **Step 7** | Both suits short: void in both | — |
 
-**Steps 4–7 (both short)** use reverse binary encoding:
-- Higher ranking suit: singleton = 1, void = 0
-- Lower ranking suit: singleton = 1, void = 0
-- Order: 11, 10, 01, 00
+**Memory aid: Steps 4–7 (both short)** use reverse binary encoding:
+- Higher ranking suit is b10/(2) -> singleton = 1, void = 0
+- Lower ranking suit: is b01/(1) -> singleton = 1, void = 0
+- Steps are 3,2,1,0 in binary order: 11, 10, 01, 00
 
 ### After Step 1 (Lower Suit Short)
 
@@ -54,7 +52,7 @@ Triggered when asker relays after learning the specific shortness. At this point
 - Which suit is short and whether it's a singleton or void
 - 9+ cards in the two long suits
 
-Askee sorts the possible hand patterns by suit length in **lexicographic order** and bids steps accordingly:
+Askee sorts the possible hand patterns by suit length in **lexicographic order** and bids steps accordingly (more extreme shapes higher steps):
 
 **With a lone singleton** (one short suit = 1, other short suit = 2+):
 
@@ -73,8 +71,6 @@ Askee sorts the possible hand patterns by suit length in **lexicographic order**
 | 3 | 6-4-3-0 |
 | 4 | 6-5-2-0 |
 | 5 | 7-4-2-0 |
-
-*(Shapes listed by lengths in descending order, sorted lexicographically.)*
 
 ---
 

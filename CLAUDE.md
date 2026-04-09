@@ -9,13 +9,13 @@ Jerrod Ankenman and his bridge partner Bill Chen play a custom bidding system ca
 ```
 whsd-system-docs/
 ├── CLAUDE.md              ← You are here
-├── references/
+├── README.md              ← For Bill / human readers
+├── project/
 │   ├── system_overview.md       ← One-page system summary (read every session)
 │   ├── general_principles.md    ← Cross-cutting rules (read every session)
-│   ├── section_tracker.md       ← What's done, what's next
-│   └── completed_sections/      ← Clean docs produced by this project
-├── source_docs/                 ← Downloaded Google Docs (raw input)
-└── outputs/                     ← Working area for current session
+│   └── roadmap.md               ← What's done, what's next
+├── system/                      ← Clean docs produced by this project
+└── source_docs/                 ← Downloaded Google Docs (raw input)
 ```
 
 ## Session Workflow
@@ -25,9 +25,9 @@ Each session tackles ONE section of the system.
 ### 1. Orient
 
 Always start by reading:
-- `references/system_overview.md`
-- `references/general_principles.md`
-- `references/section_tracker.md`
+- `project/system_overview.md`
+- `project/general_principles.md`
+- `project/roadmap.md`
 
 Then read any completed sections directly relevant to the current work.
 
@@ -67,7 +67,7 @@ Walk through bidding sequences methodically with Jerrod:
 
 ### 4. Produce the Section Document
 
-Create a clean markdown document in `references/completed_sections/`:
+Create a clean markdown document in `system/`:
 - Self-contained — reader shouldn't need other docs to understand the section
 - Tables for bidding sequences
 - Reference (don't duplicate) general principles and the shortness protocol
@@ -77,9 +77,9 @@ Create a clean markdown document in `references/completed_sections/`:
 ### 5. Update Tracking
 
 After completing a section:
-- Update `references/section_tracker.md`
-- Update `references/general_principles.md` if new cross-cutting rules emerged
-- Update `references/system_overview.md` if any system-level facts were corrected
+- Update `project/roadmap.md`
+- Update `project/general_principles.md` if new cross-cutting rules emerged
+- Update `project/system_overview.md` if any system-level facts were corrected
 
 ## System Context
 
