@@ -24,6 +24,8 @@ Each session tackles ONE section of the system.
 
 ### 1. Orient
 
+Jerrod usually forgets to put Claude in plan mode to start a session, so start by prompting about that if not already there.
+
 Always start by reading:
 - `project/system_overview.md`
 - `project/general_principles.md`
@@ -73,6 +75,9 @@ Create a clean markdown document in `system/`:
 - Reference (don't duplicate) general principles and the shortness protocol
 - Flag remaining TODOs or "ask Bill" items clearly
 - Don't add a lot of descriptive notes explaining motivations unless Jerrod or a document specifically explained them. Even then, be brief, Jerrod will add necessary color after.
+- In review, Jerrod will often modify the document and will sometimes leave annotations marked like this:
+>>> NOTE_TO_CLAUDE:  i did XYZ, can you verify cross-references didn't get broken   (or similar)  Whenever you see these, you can do what's needed and remove the note, or make it part of the current plan if in plan mode.
+
 
 ### 5. Update Tracking
 
