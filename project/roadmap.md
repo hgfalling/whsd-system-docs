@@ -24,7 +24,7 @@ Each completed section goes through three stages:
 
 | Section | Priority | Source Docs | Notes |
 |---------|----------|-------------|-------|
-| 1♣ Opening | High | WHSD §3, BFD 1♣ Modified | **Started.** Opening description and uncontested response table done. Continuations TBD. |
+| 1♣ Opening | High | WHSD §3, BFD 1♣ Modified | **Started.** Opening description, uncontested responses, 1♣-1♦ branch (§2–§9) and 1♣-1M branch (§10–§17) drafted. Several "ask Bill" TODOs noted. |
 | 1♦ Opening | High | BFD 3. 1♦ Opening | Detailed relay structure exists. Needs WHSD reconciliation. |
 | 1NT Opening | High | Other Agreements with WHSD | 11-14, includes 5cM. Puppet/transfer/Stayman structure. |
 | 3rd / 4th Seat Openings | Medium | WHSD §1.1 | Some TBD material here |

@@ -8,11 +8,11 @@ Everything in [`system/`](system/) is a finished section document. Each is self-
 
 | Section | File | Status |
 |---------|------|--------|
+| 1C Opening | [WHSD_1C_Opening.md](system/WHSD_1C_Opening.md) | Draft (in progress) |
 | 1M Opening (1st/2nd) | [WHSD_1M_Opening.md](system/WHSD_1M_Opening.md) | Jerrod reviewed |
 | 2C Opening (Majors) | [WHSD_2C_Opening.md](system/WHSD_2C_Opening.md) | Jerrod reviewed |
 | 2D Opening (Minors) | [WHSD_2D_Opening.md](system/WHSD_2D_Opening.md) | Jerrod reviewed |
 | 2M Opening | [WHSD_2M_Opening.md](system/WHSD_2M_Opening.md) | Jerrod reviewed |
-| 1C Opening | [WHSD_1C_Opening.md](system/WHSD_1C_Opening.md) | Draft (in progress) |
 | Shortness Ask Protocol | [WHSD_Shortness_Ask_Protocol.md](system/WHSD_Shortness_Ask_Protocol.md) | Jerrod reviewed |
 
 ## Still To Come

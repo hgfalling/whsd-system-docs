@@ -20,7 +20,7 @@ whsd-system-docs/
 
 ## Session Workflow
 
-Each session tackles ONE section of the system.
+Each session tackles ONE section of the system, sometimes only a piece of a section.
 
 ### 1. Orient
 
@@ -73,7 +73,7 @@ Create a clean markdown document in `system/`:
 - Self-contained — reader shouldn't need other docs to understand the section
 - Tables for bidding sequences
 - Reference (don't duplicate) general principles and the shortness protocol
-- Flag remaining TODOs or "ask Bill" items clearly
+- Flag remaining TODOs or "ask Bill" items clearly, but "ask Bill" items only when Jerrod has explicitly said that he wants to talk to Bill about it.
 - Don't add a lot of descriptive notes explaining motivations unless Jerrod or a document specifically explained them. Even then, be brief, Jerrod will add necessary color after.
 - In review, Jerrod will often modify the document and will sometimes leave annotations marked like this:
 >>> NOTE_TO_CLAUDE:  i did XYZ, can you verify cross-references didn't get broken   (or similar)  Whenever you see these, you can do what's needed and remove the note, or make it part of the current plan if in plan mode.
