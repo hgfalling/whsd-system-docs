@@ -62,9 +62,15 @@ Responder's followups:
 | **3M** | both | Invitational in M |
 | **4M** | both | to play |
 
-- To get shortness information over 2♥ responder starts with the 2♠ length ask. 
-- If opener bids 2NT, responder can shortness ask with 3♣. Otherwise opener will bid the steps of the shortness ask starting with 3♣.
-- To get shortness information over 2♠ responder uses the 3♣ shortness ask. 
+2♠ Length Ask: (Only available/necessary when opener bids 2♥)
+
+Opener bids:
+- 2NT with equal length hearts and spades.
+- Answers the Two Suited Shortness Ask starting with 3♣ as the first step with longer hearts.
+
+Shortness Asks:
+After 2♣–2♦–2♠, responder can bid 3♣ as Two Suited Shortness Ask.
+After 2♣–2♦–2♥, responder starts with the Length ask, and if opener shows equal, can follow up with 3♣ as Two Suited Shortness Ask.
 
 For details on the Two Suited Shortness Ask, see *WHSD: Shortness Ask Protocol* for steps and relay continuations. 
 Note: If opener shows equal length majors, he must have a shortness, so 3NT is just a regular step.
